@@ -1,0 +1,109 @@
+.fas.fa-times.close-bt {
+    color: rgb(252, 89, 154);
+    background-color: white;
+    box-shadow: 3px 3px 4px rgba(29, 28, 28, 0.2),8px 8px 8px rgba(2, 2, 2, 0.1);
+    border: 3px solid rgb(243, 17, 107);
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 4px 6px;
+}
+.fas.fa-cog.icon-set {
+    color: #0BB07F;
+    
+}
+.set-icon-size {
+    font-size:20px;
+}
+
+.fas.fa-caret-right {
+    color: #0BB07F;
+    padding: 0 6px;
+    margin-right: 5px;
+    font-size:28px;
+    bottom: 10px;
+}
+
+
+.far.fa-trash-alt {
+    background-color: rgba(255, 255, 255, 0.336);
+    color: rgb(252, 89, 154);
+    padding: 4px 6px;
+    border-radius: 30px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 3px 1px rgb(194, 194, 194);
+    font-size:18px;
+}
+
+.close-bt {
+    position: absolute;
+    top: -10px;
+    right: -20px;
+}
+
+.fas.fa-times.close-g {
+    border: 3px solid #0BB07F;
+    color: #0BB07F;
+}
+
+.fas.fa-cog {
+    color: #0BB07F;
+
+}
+
+
+
+
+.recipe-management {
+    
+    background-color: white;
+    box-shadow: 2px 2px 3px 1px rgb(194, 194, 194);
+    border-radius: 20px;
+    margin-right: 10px;
+    padding:6px 6px;
+}
+
+.fas.fa-plus-circle {
+    color: #D2005D;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.fas.fa-chevron-circle-left {
+    color: rgb(117, 117, 117);
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.delete-b {
+    background: linear-gradient(-40deg, rgb(243, 35, 129),rgb(252, 89, 154));
+    box-shadow: 3px 3px 4px rgba(29, 28, 28, 0.2), 8px 8px 8px rgba(2, 2, 2, 0.1);
+    border-style: none;
+    border-radius: 30px;
+}
+
+.fas.fa-angle-double-down {
+    color: rgb(255, 218, 233);
+    font: normal normal normal 30px FontAwesome;
+    padding: 10px 0 10px 5px;
+}
+/* 頁碼 */
+.page-link {
+    color: rgb(117, 117, 117)
+}
+
+    .page-link:hover {
+        color: white;
+        background: linear-gradient(-40deg, rgb(243, 35, 129),rgb(252, 89, 154));
+    }
+
+.btn-back {
+    background: linear-gradient(-30deg,#bbbbbb,#DFDFDF);
+}
+
+.btn-reset {
+    background: linear-gradient(-40deg, rgb(243, 35, 129),rgb(252, 89, 154));
+}
+
+.btn-save {
+    background: linear-gradient(40deg, #7DDE1E,#0BB07F);
+}

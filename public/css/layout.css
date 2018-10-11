@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.fixed-top {
+    padding: 0 30px;
+    position: top;
+    height: 110px;
+    background: linear-gradient(-30deg, #e6e6e6,#fdfdfd);
+    box-shadow: 3px 3px 4px rgba(94, 94, 94, 0.2), 8px 8px 8px rgba(2, 2, 2, 0.1);
+    z-index: inherit 1;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.top-main {
+    color: #D2005D;
+}
+
+    .top-main:hover {
+        color: #FD4891;
+    }
+
+body {
+    background: linear-gradient(60deg, #dddddd,#d4d4d4,#dfdfdf);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-nav-main {
+    text-align: right;
+}
+
+
+.row {
+    position: static;
+    margin-top: 80px;
+}
+/* 左側選單設定 */
+.sidebar {
+    position: fixed;
+    margin-top: 110px;
+    top: 0;
+    padding: 0;
+    background: linear-gradient(30deg, #d6d6d6,#fdfdfd);
+    box-shadow: 3px 3px 4px rgba(94, 94, 94, 0.2),8px 8px 8px rgba(2, 2, 2, 0.1);
+}
+
+.nav-link.active {
+    background: linear-gradient(-40deg, #D2005D,#FD4891);
+    border-radius: 5px;
+    color: white;
+    box-shadow: 3px 3px 4px rgba(94, 94, 94, 0.2),8px 8px 8px rgba(2, 2, 2, 0.1);
+}
+
+ul {
+    margin: 0px;
+}
+
+.bt {
+    padding: 65px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+    .bt:hover {
+        background: linear-gradient(40deg, rgb(202, 3, 93),rgb(196, 6, 82));
+        color: white;
+        border-radius: 5px;
+        box-shadow: 3px 3px 4px rgba(146, 146, 146, 0.2),8px 8px 8px rgba(2, 2, 2, 0.1);
+    }
+
+.col-sm-9 {
+    padding: 0px 30px;
+}
+
+.row.col-sm-6 {
+    display: flex;
+    padding: 50px 50px;
+}
+/* 機台方塊樣式 */
+.table {
+    margin-bottom: 0;
+}
+
+    .table thead th {
+        border-bottom: 1.5px solid #e4e6e6;
+    }
+
+    .table tbody tr {
+        border-bottom: 1.5px solid #e4e6e6;
+    }
+
+    .table td, .table th {
+        border-top: none;
+    }
+
+.style {
+    background: linear-gradient(30deg, #e9e9e9,#fdfdfd);
+    border-radius: 20px;
+    padding-top: 10px;
+    box-shadow: 3px 3px 4px rgba(29, 28, 28, 0.2),8px 8px 8px rgba(2, 2, 2, 0.1);
+    margin: 30px 15px 0 15px;
+}
+
+.styletable{
+    padding: 10px 20px;
+}
+
+
+
+.left-title {
+    padding-left: 20px;
+}
+
+.number {
+    text-align: right;
+    padding-right: 20px;
+}
+
+    .number.number-detail {
+        text-align: right;
+        padding-right: 0;
+    }
+
+.unit-detail {
+    text-align:left;
+
+}
+
+.table tbody tr {
+    border-bottom: none;
+}
+
+/* runnung樣式 */
+.status-bt, .wrong {
+    height: 75px;
+}
+
+.running {
+    border-radius: 0 0 20px 20px;
+    color: white;
+    border-style: none;
+    background: linear-gradient(40deg, #7DDE1E,#0BB07F);
+}
+
+    .running:hover {
+        color: #def7bb;
+        text-decoration: none;
+    }
+
+.status-bt > div {
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* warning樣式 */
+.wrong {
+    color: white;
+    border-style: none;
+    background: linear-gradient(-40deg, #D2005D,#FD4891);
+    border-radius: 0 0 20px 20px;
+}
+
+    .wrong:hover {
+        color: rgb(255, 218, 233);
+    }
+
+.row.r-wrong {
+    margin-top: 0;
+}
+
+.table-sm {
+    padding: 0;
+}
+
+    .table-sm td {
+        padding: 0;
+    }
+
+.table02 {
+    width: 70%;
+    display: table;
+}
+
+.wrong-title {
+    padding-left: 20px;
+}
+
+.list-group.warning > a {
+    padding: 10px;
+}
+
+/* 停止樣式 */
+.stop {
+    background: linear-gradient(40deg, rgb(255, 166, 0),rgb(233, 78, 7));
+    border-radius: 0 0 20px 20px;
+    color: white;
+}
+
+    .stop:hover {
+        color: rgb(255, 201, 101);
+    }
+/* warning訊息 */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    width: 100%;
+    padding: 0 30px 0 60px;
+}
+
+.col-sm-1.more {
+    text-align: center;
+    padding: 0;
+}
+
+.col-sm-11.details {
+    padding: 0 10px;
+}
+
+.r-wrong {
+    color: white;
+}
+
+    .r-wrong:hover {
+        color: rgb(255, 218, 233);
+        text-decoration: none;
+    }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+/* 錯誤訊息彈出樣式 */
+
+.modal-content {
+    border-style: none;
+    border-radius: 20px;
+    background: linear-gradient(-30deg, #ebebeb,#ffffff);
+    box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.041);
+}
+
+.w-title, .r-title {
+    padding: 20px 20px;
+    border-radius: 20px 20px 0 0;
+    color: white;
+}
+
+.w-title {
+    background: linear-gradient(-40deg, #D2005D,#FD4891);
+}
+
+.r-title {
+    background: linear-gradient(40deg, #7DDE1E,#0BB07F);
+}

@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+
+}
+
+/* 機台名稱樣式 */
+h1 {
+    border-bottom: none;
+}
+.container-fluid{
+    background: linear-gradient(-90deg, #dddddd ,#f0f0f0);       
+    height: 200px;
+}
+
+.machine{
+    padding-top: 80px;
+    height:200px ;
+    margin-bottom: 30px;
+
+}
+.t01{
+    padding-top: 30px;
+    text-align: right;
+    padding-right:30px; 
+}
+.m01.t01{
+    margin-left: 100px;
+}
+hr{
+    margin-top: 1px;
+}
+#add{
+    padding-right: 30px;
+    color:#D2005D;;
+}
+#back{
+    color:rgb(117, 117, 117);
+}
+
+.btn.btn-primary{
+    box-shadow: 3px 4px 8px 0 rgba(112, 110, 110, 0.082),3px 3px 4px rgba(2, 2, 2, 0.1);
+    border-style:none;
+    border-radius:15px;
+    padding: 7px 25px;
+    color:white;
+    margin-left: 10px;
+}
+.btn-back{
+    background: linear-gradient(-30deg,#bbbbbb,#DFDFDF);
+}
+
+/* recipe樣式 */
+
+.row01{
+    display: inline-block;
+    height: 50px;
+    padding: 15px 20px;
+    box-shadow: 3px 3px 4px rgba(29, 28, 28, 0.2),8px 8px 8px rgba(2, 2, 2, 0.1);
+    border-radius:20px;
+}
+.table tbody tr{
+    border-style:none; 
+
+}
+.recipe{
+    margin-bottom:30px; 
+    
+}
+.recipe-name{
+    float: left;
+    background: linear-gradient(30deg, #e9e9e9 ,#fdfdfd);
+    grid-template-columns:  auto 30px;
+    width: 85%;
+    border-radius:20px 0 0 20px ;
+    padding-right: 30px;
+}
+.recipe-set-none{
+    background:linear-gradient(-40deg, rgb(11, 150, 103) ,#0BB07F);
+    text-align: center;
+    width: 15%;
+    border-radius:0 20px 20px 0;
+}
+.recipe-set{
+
+    background: linear-gradient(30deg, #e9e9e9 ,#fdfdfd);
+    /* box-shadow: -2px 3px 5px rgba(29, 28, 28, 0.2),8px 8px 8px rgba(2, 2, 2, 0.1); */
+    text-align: center;
+    width: 15%;
+    border-radius:0 20px 20px 0;
+
+    
+}
+.recipe-name > .table td{
+    padding: 0;
+
+}
+.recipe-activ{
+    background: linear-gradient(40deg, #7DDE1E ,#0BB07F);
+}
+td{
+    padding:30px;
+}
+.item01{
+    width: 30%;
+}
+.item02{
+    width: 70%;
+
+}
+.delete{
+    width: 10px;
+    height: 10px;
+}
+.delete.btn.btn-primary{
+    background: none;
+    border-style: none
+}
+
+.btn.disabled{
+
+    border-style: none;
+}

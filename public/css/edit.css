@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(-60deg, #eaeaea,#f1f1f1,#f1eeee);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+    background-attachment: fixed;
+    overflow:scroll;
+    
+
+
+}
+
+.row {
+    width: 100%;
+}
+
+    .row.f-row {
+        margin: auto;
+        height: 50px;
+        padding: 0;
+    }
+
+/* 頁碼樣式 */
+.page.m01 {
+    vertical-align: middle;
+}
+
+.page-link {
+    background: none;
+    border-style: none;
+}
+/* 表格匡樣式 */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 5px 10px 5px 0;
+    border-style: none;
+    border-radius: 20px;
+    resize: vertical;
+    text-align: right;
+    margin-top: 5px;
+    box-shadow: 1px 1px 5px rgba(146, 146, 146, 0.514) inset;
+}
+
+.input-name > input[type=text], select, textarea {
+    width: 100%;
+    border-style: none;
+    border-radius: 20px;
+    resize: vertical;
+    text-align: left;
+    box-shadow: 1px 1px 5px rgba(146, 146, 146, 0.514) inset;
+    padding: 5px 15px;
+}
+
+.input-name {
+    padding-left: 0;
+    margin-bottom: 33px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+}
+
+.container {
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.unit-r {
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.col-9 {
+    width: auto;
+}
+
+.col-2, .container {
+    padding: 0;
+}
+
+.button {
+    text-align: right;
+    padding-right: 70px;
+    padding-bottom: 50px;
+}
+
+.btn.btn-primary {
+    box-shadow: 3px 4px 8px 0 rgba(112, 110, 110, 0.082),3px 3px 4px rgba(2, 2, 2, 0.1);
+    border-style: none;
+    border-radius: 15px;
+    padding: 7px 25px;
+    color: white;
+    margin-left: 10px;
+}
+
+.col-9 {
+    padding: 0;
+}
